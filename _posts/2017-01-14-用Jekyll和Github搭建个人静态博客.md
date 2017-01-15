@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "用jekyll和github搭建个人静态博客"
-date:   2016/6/26 13:03:42
-categories: original
+date:   2017-01-14 13:03:42
+categories: jekyll update
 ---
 
 ##jekyll+github搭建个人博客
@@ -35,17 +35,17 @@ categories: original
 jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可以免费部署在Github上，而且可以绑定自己的域名。（注：我自己的没有绑定域名）
 我们使用gem来安装jekyll，在命令行中输入
 
-     gem install jekyll
+      gem install jekyll
 所有的jekyll的gem依赖包都会被自动安装。
 ###下载bundle
 在命令行输入
           
-     gem install bundler
+      gem install bundler
   bundler：就是一个打包机，他会连接rubygems.org（或者其他你声明的源），然后列出所有你指定的符合你需要的 gem。因为所有你在Gemfile里的依赖有它们自己的依赖，所以基于上面的Gemfile运行bundle install会安装相当多的的 gem。（我也不太了解，自己可以百度）
 ###建立自己的第一个博客
 首先看看你想把你的博客建在哪里，我的是搭建在C盘，如果你想建在D盘，则输入：
 
-     cd d:
+      cd d:
  
  然后输入创建的博客
 
@@ -54,16 +54,16 @@ jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
 ###开启jekyll内置服务器
 实现转入blog的目录，输入：
      
-    cd blog//一定要进入创建的对应blog目录，否则服务无法开启
+       cd blog//一定要进入创建的对应blog目录，否则服务无法开启
 然后输入：
        
-    jekyll serve  //开启服务器，可以按ctrl+c停止
+       jekyll serve  //开启服务器，可以按ctrl+c停止
 Jekyll服务器默认端口是4000，所以打开浏览器输入：http://localhost:4000 就可以看到生成的博客页面。如下：
 ![](http://images2015.cnblogs.com/blog/1019973/201701/1019973-20170114223440525-1524406009.png)
 ###使用jekyll写博文
 你可能喜欢markdown或html来写博文，都可以，但是博文文件的**命名规则**要服从下面的规则：
          
-     year-month-title.markup //markup为你的文件格式的后缀名
+        year-month-title.markup //markup为你的文件格式的后缀名
 在你的文章头部添加yaml头信息
 
 	---
