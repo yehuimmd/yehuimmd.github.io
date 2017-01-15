@@ -5,7 +5,7 @@ date:   2017-01-14 13:03:42
 categories: jekyll update
 ---
 
-##jekyll+github搭建个人博客
+## jekyll+github搭建个人博客
 
 经过一天多的折腾，终于算是搭建好了自己的个人博客，看到有些社区评论说：在windows下用jekyll搭建静态博客，简直就自讨苦吃，但是都到一半了，有什么办法呢，只好坚持搭完咯~~
 
@@ -28,7 +28,7 @@ categories: jekyll update
  
 接下来我们的操作都是在cmd命令行中进行的
 
-###下载ruby
+### 下载ruby
 
 什么是ruby：Ruby，一种简单快捷的面向对象（面向对象程序设计）脚本语言，安装Jekyll需要电脑上安装Ruby，以下是安装步骤：
 
@@ -38,7 +38,7 @@ categories: jekyll update
 
 **注：用RubyInstaller安装Ruby之后都附带有Gems，如有需要可以单独下载RubyGems。网址为：https://rubygems.org/pages/download**
 
-###下载jekyll
+### 下载jekyll
 
 好激动啊！终于到这里了，
 jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可以免费部署在Github上，而且可以绑定自己的域名。（注：我自己的没有绑定域名）
@@ -48,7 +48,7 @@ jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
       
 所有的jekyll的gem依赖包都会被自动安装。
 
-###下载bundle
+### 下载bundle
 
 在命令行输入
           
@@ -56,7 +56,7 @@ jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
       
   bundler：就是一个打包机，他会连接rubygems.org（或者其他你声明的源），然后列出所有你指定的符合你需要的 gem。因为所有你在Gemfile里的依赖有它们自己的依赖，所以基于上面的Gemfile运行bundle install会安装相当多的的 gem。（我也不太了解，自己可以百度）
   
-###建立自己的第一个博客
+### 建立自己的第一个博客
 
 首先看看你想把你的博客建在哪里，我的是搭建在C盘，如果你想建在D盘，则输入：
 
@@ -68,7 +68,7 @@ jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
     
 控制台可以看见（创建的地址有所不同）New jekyll site installed in C : /blog。你的C盘的文件夹下也会出现相应的blog文件。
 
-###开启jekyll内置服务器
+### 开启jekyll内置服务器
 
 实现转入blog的目录，输入：
      
@@ -81,7 +81,7 @@ jekyll：jekyll是一个简单的免费的Blog生成工具，类似WordPress。�
 Jekyll服务器默认端口是4000，所以打开浏览器输入：http://localhost:4000 就可以看到生成的博客页面。如下：
 ![](http://images2015.cnblogs.com/blog/1019973/201701/1019973-20170114223440525-1524406009.png)
 
-###使用jekyll写博文
+### 使用jekyll写博文
 
 你可能喜欢markdown或html来写博文，都可以，但是博文文件的**命名规则**要服从下面的规则：
          
@@ -104,7 +104,7 @@ Jekyll服务器默认端口是4000，所以打开浏览器输入：http://localh
 重新生成页面，在启动服务器，这样就可以在页面看到自己添加的博文的标题了。
 这就是在本地搭建jekyll和写博文的大致过程了，相信还有其他的搭建方法，但是估计都是大同小异吧。
 
-###用github 展示你的博客
+### 用github 展示你的博客
 
 接下来的操作都是用GIT命令完成的，不再是cmd了。首先，大家应该都拥有了github账号，没有的注册一个就好了。
 
