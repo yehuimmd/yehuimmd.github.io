@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "用jekyll和github搭建个人静态博客"
+date:   2016/6/26 13:03:42
+categories: original
+---
+
 ##jekyll+github搭建个人博客
 经过一天多的折腾，终于算是搭建好了自己的个人博客，看到有些社区评论说：在windows下用jekyll搭建静态博客，简直就自讨苦吃，但是都到一半了，有什么办法呢，只好坚持搭完咯~~
 搭建github博客可以用hexo，也可以用jekyll，我用的是后者，hexo大家可以试试，在这里推荐一个用hexo搭建的教程：http://gaoxianglyx.top
