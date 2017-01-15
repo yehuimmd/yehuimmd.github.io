@@ -25,7 +25,7 @@ github_username:  yehuimmd
 
 # Build settings
 markdown: kramdown
-theme: Minima
+theme: Dinky
 gems:
   - jekyll-feed
 exclude:
