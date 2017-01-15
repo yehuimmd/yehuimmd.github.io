@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About美美王子
+title: About
 permalink: /about/
 ---
  嘿！我是美美王子
