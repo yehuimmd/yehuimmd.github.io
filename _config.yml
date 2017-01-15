@@ -25,7 +25,7 @@ github_username:  yehuimmd
 
 # Build settings
 markdown: kramdown
-theme: Time Machine
+theme: jekyll-theme-time-machine
 gems:
   - jekyll-feed
 exclude:
