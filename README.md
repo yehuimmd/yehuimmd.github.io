@@ -1,12 +1,12 @@
-# yehuimmd.github.io
-yehui我的个人博客
-
 ---
 layout: post
 title:  "用jekyll和github搭建个人静态博客"
 date:   2017-01-14 13:03:42
 categories: jekyll update
 ---
+
+# yehuimmd.github.io
+yehui我的个人博客
 
 ## jekyll+github搭建个人博客
 
